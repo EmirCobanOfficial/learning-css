@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        *{
+        box-sizing: border-box;
+        }
+        h1{
+            margin: 0px;
+        }
+      header,
+      footer {
+        background-color: #8267be;
+        color: #ffbd35;
+        padding: 15px;
+      }
+
+      .col{
+        float: left;
+        padding: 15px;
+        padding: 15px 15px 15px 0 ;
+      }
+
+      .Menu {
+        width: 25%;
+      }
+      
+      .Menu ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }  
+      .Menu li{
+        padding: 8px;
+        margin-bottom: 8px;
+        background-color: #502064;
+        color: #fff;
+      }
+      .Menu li:hover{
+        cursor: pointer;
+        background-color: #8267be;
+      }
+
+      .Content {
+        width: 75%;
+      }
+      .clearfix::after{
+        content: "";
+        display: block;
+        clear: both;    
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h2>Header</h2>
+    </header>
+
+    <main class="clearfix">
+      <div class="Menu col">
+        <ul>
+          <li>Html</li>
+          <li>Css</li>
+          <li>Javascript</li>
+        </ul>
+      </div>
+      <div class="Content col">
+        <h2>Komple Web Geliştirme Eğitimi</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea dolore,
+          expedita repudiandae labore veniam distinctio animi enim deleniti
+          facilis, dignissimos dolorem! Nobis, veritatis fugit numquam nihil
+          fugiat eligendi quibusdam sapiente?
+        </p>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi fugiat
+          iste voluptatum doloribus hic quam error odio asperiores maxime, autem
+          corporis harum. Dignissimos laudantium eveniet iure omnis molestias
+          libero pariatur.
+        </p>
+      </div>
+    </main>
+
+    <footer>
+      <h1>Footer</h1>
+    </footer>
+  </body>
+</html>

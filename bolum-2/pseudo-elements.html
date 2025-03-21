@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p::first-line{
+            font-weight: bold;
+            color: brown;
+            word-spacing:2px;
+            letter-spacing: 1px;
+        }
+
+        p.about::first-line{
+            color: green;
+        }
+
+        p.about1::first-letter{
+            font-size: 48px;
+        }
+ 
+        ::selection{
+            background-color: yellow;
+        }
+
+        ::after{
+            content: '\261D';
+            font-size: 35px;
+            padding: 35px;
+        }
+
+    </style>
+</head>
+<body>
+
+     <p class="about1">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa dolor assumenda neque iure nobis a numquam. Alias itaque aspernatur nam, laboriosam fuga ut inventore, praesentium odit saepe, animi tenetur. Delectus dolores adipisci atque aspernatur eius nobis nostrum commodi quasi aliquam? Cum aspernatur aliquid consectetur et omnis ex cumque unde sapiente?
+     </p>
+
+     <p class="about">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ducimus culpa non illum aliquid, et neque at perferendis deleniti, impedit voluptatum voluptas sapiente error minus labore vitae molestias similique sed laborum dolorum quae iste. Fugiat ea rerum facere aspernatur, sapiente, recusandae maxime cum, cupiditate ducimus adipisci voluptatem et! Esse, modi.</p>
+
+</body>
+</html>
