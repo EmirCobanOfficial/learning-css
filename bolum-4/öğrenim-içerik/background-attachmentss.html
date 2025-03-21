@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parallax Scrolling</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      /* Genel sayfa yapısı */
+      body {
+        font-family: "Times New Roman", serif;
+        text-align: center;
+        background-color: #f5f5f5;
+      }
+
+      /* Parallax bölümleri */
+      .parallax {
+        position: relative;
+        height: 100vh; /* Ekranın tamamını kaplasın */
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed; /* Parallax efekti için */
+      }
+
+      /* İlk arka plan resmi */
+      .parallax-one {
+        background-image: url("bg-2.jpeg"); /* İlk resim */
+      }
+
+      /* İkinci arka plan resmi */
+      .parallax-two {
+        background-image: url("bg-3.jpeg"); /* İkinci resim */
+      }
+
+      /* Metin bölümleri */
+      .text-section {
+        padding: 50px 20px;
+        font-size: 24px;
+        background-color: black;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- İlk Parallax Fotoğraf -->
+    <div class="parallax parallax-one"></div>
+
+    <!-- Metin Bölümü -->
+    <div class="text-section">
+      <h1>LOREM, İPSUM.</h1>
+    </div>
+
+    <!-- İkinci Parallax Fotoğraf -->
+    <div class="parallax parallax-two"></div>
+
+    <!-- İkinci Metin Bölümü -->
+    <div class="text-section">
+      <h1>LOREM, İPSUM.</h1>
+    </div>
+  </body>
+</html>
